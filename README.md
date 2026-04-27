@@ -1,11 +1,11 @@
-# ImageGen Photobooth Demo
+# ImageGen Photobooth Production Ready Example
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4)](https://tailwindcss.com/)
 
-This repo contains a simple photobooth demo built with Next.js that lets you capture or upload a portrait and create multiple image styles using the [OpenAI Image API](https://developers.openai.com/api/reference/resources/images/methods/edit) in edit mode with the [GPT Image 2 model](https://developers.openai.com/api/docs/models/gpt-image-2).
+This repo contains a simple photobooth Production Ready Example built with Next.js that lets you capture or upload a portrait and create multiple image styles using the [OpenAI Image API](https://developers.openai.com/api/reference/resources/images/methods/edit) in edit mode with the [GPT Image 2 model](https://developers.openai.com/api/docs/models/gpt-image-2).
 
 Learn more about image generation and see examples in our [dedicated guide](https://developers.openai.com/api/docs/guides/image-generation).
 
@@ -58,7 +58,7 @@ npm run dev
 
 The app should now be running at [http://localhost:3000](http://localhost:3000).
 
-## Demo flow
+## Production Ready Example flow
 
 1. Start camera and capture an image of yourself, or upload an image with people on the home screen.
 2. Select up to 4 styles from the style panel.

@@ -1,6 +1,6 @@
 import type { PhotoboothStyleId } from "@/lib/photobooth-styles";
 
-export const APP_NAME = "Photobooth ImageGen Demo";
+export const APP_NAME = "OPEN-UI";
 
 export const PHOTOBOOTH_SESSION_STORAGE_KEY = "photobooth.request";
 
@@ -15,7 +15,7 @@ export const DEFAULT_SELECTED_STYLE_IDS: PhotoboothStyleId[] = [
 
 export const IMAGEGEN_API_ROUTE = "/api/photobooth";
 
-export const OPENAI_IMAGE_MODEL = "gpt-image-2";
+export const OPENAI_IMAGE_MODEL = "gpt-image-1.5";
 export const OPENAI_IMAGE_SIZE = "1024x1536";
 export const OPENAI_IMAGE_QUALITY = "high";
 export const OPENAI_IMAGE_OUTPUT_FORMAT = "png";

@@ -3,6 +3,7 @@ export type PhotoboothStyleId =
   | "anime"
   | "digital-art"
   | "watercolor"
+  | "Cyberpunk"
   | "futuristic"
   | "lofi-comic";
 
@@ -49,6 +50,14 @@ export const PHOTOBOOTH_STYLES: PhotoboothStyle[] = [
       "Ethereal sci-fi glow with blue tones and futuristic cityscape.",
     prompt:
       "Transform this photo into a futuristic, ethereal sci-fi scene with a cool, vibrant blue color palette. Add neon glows around the subjects. Use smooth gradients, holographic lighting, and slightly reflective surfaces, and make sure the colors are vibrant and the contrast is high. Keep the same people, pose, expression, in a photorealistic way, but change the background to be a futuristic, sci-fi scene like a new-generation, glowing cityscape with ambient energy fields.",
+  },
+  {
+    id: "Cyberpunk",
+    label: "Cyberpunk",
+    description:
+      "Gritty neon-drenched urban sprawl with high-tech chrome visuals.",
+    prompt:
+      "Transform this photo into a gritty, neon-lit cyberpunk scene with a dark, electric pink color palette. Add glitch flows around the subjects. Use sharp textures, holographic overlays, and deeply reflective surfaces, and make sure the colors are burning and the contrast is high. Keep the same people, pose, expression, in a photorealistic way, but change the background to be a cyberpunk, sci-fi scene like a rain-slicked, glowing underworld with chaotic digital signal fields.",
   },
   {
     id: "lofi-comic",
