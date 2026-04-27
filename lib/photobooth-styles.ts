@@ -1,5 +1,15 @@
 export type PhotoboothStyleId =
   | "knitted"
+  | "blueprint"
+  | "risograph"
+  | "ukiyo-e"
+  | "infrared"
+  | "brutalism"
+  | "stained-glass"
+  | "papercut"
+  | "alchemical-etch"
+  | "halftone-pop"
+  | "charcoal"
   | "anime"
   | "digital-art"
   | "watercolor"
@@ -38,6 +48,76 @@ export const PHOTOBOOTH_STYLES: PhotoboothStyle[] = [
     description: "Bold modern illustration with crisp shapes and vivid colors.",
     prompt:
       "Recreate this photo as clean modern digital art with bold shapes, smooth vector-like forms, balanced vivid colors, and crisp edges. Preserve the original people, pose, expression, and composition as closely as possible",
+  },
+  {
+    id: "blueprint",
+    label: "Blueprint",
+    description: "Technical Prussian blue grids with white schematic lines.",
+    prompt:
+      "Transform this photo into a technical architectural blueprint. Use a deep cyanotype blue background with crisp white drafting lines, mathematical notations, and grid overlays. Render the subjects as precise schematic drawings with engineering-style line weights while preserving the same identity, pose, expression, and composition.",
+  },
+  {
+    id: "risograph",
+    label: "Risograph",
+    description: "Vibrant neon overlays with grainy lo-fi print textures.",
+    prompt:
+      "Recreate this photo as a tactile risograph print. Use a limited palette of vibrant spot colors like neon pink and teal with characteristic grainy textures and slight mechanical ink misalignments. Maintain the original people, pose, and expression, ensuring the final result feels like a high-end indie press art piece.",
+  },
+  {
+    id: "ukiyo-e",
+    label: "Ukiyo-e",
+    description: "Classic woodblock aesthetics with bold flat color planes.",
+    prompt:
+      "Reinterpret this photo in the style of a historic Ukiyo-e woodblock print. Use elegant flowing outlines, flat decorative color planes, and dramatic atmospheric elements like stylized waves or clouds. Keep the same subjects, proportions, and expressions, but render them as characters in a traditional Japanese masterpiece.",
+  },
+  {
+    id: "infrared",
+    label: "Infrared",
+    description: "High-energy thermal heat maps in surreal neon palettes.",
+    prompt:
+      "Transform this photo into a high-contrast infrared thermal image. Use a vibrant spectrum of electric purples, hot yellows, and deep oxygen-blues to map the subjects' energy. Ensure the colors are burning and the contrast is extreme while keeping the same people, pose, expression, and scene structure in a surreal way.",
+  },
+  {
+    id: "brutalism",
+    label: "Vector Brutalism",
+    description: "Jagged raw shapes and disruptive modern graphic energy.",
+    prompt:
+      "Reinterpret this photo through the lens of vector brutalism. Use jagged, intentional geometric distortions, raw primary colors, and bold graphic fragments. Avoid traditional beauty for a disruptive, modern aesthetic. Keep the original people and pose recognizable but framed within a chaotic, high-impact digital layout.",
+  },
+  {
+    id: "stained-glass",
+    label: "Stained Glass",
+    description: "Leaded geometric shards with vibrant translucent glows.",
+    prompt:
+      "Transform this photo into a museum-quality stained glass window. Fragment the entire scene into hundreds of leaded glass shards with thick black solder outlines and vibrant, translucent color fills. Render the light as if it is shining through the glass while preserving the same identity, pose, expression, and framing.",
+  },
+  {
+    id: "papercut",
+    label: "Papercut",
+    description: "3D layered cardstock depth with soft physical shadows.",
+    prompt:
+      "Recreate this photo as a physical papercut diorama. Construct the subjects and background using distinct layers of stacked cardstock with soft drop shadows creating a sense of 3D depth. Use a clean, tactile aesthetic while keeping the same people, pose, expression, and scene structure as the original photograph.",
+  },
+  {
+    id: "alchemical-etch",
+    label: "Alchemical Etch",
+    description: "Delicate 17th-century occult ink on aged parchment.",
+    prompt:
+      "Reinterpret this photo as a delicate 17th-century alchemical etch. Use extremely fine, swirling ink lines and complex stippling on a weathered parchment texture. Incorporate celestial or geometric diagrams into the background. Keep the same people and expressions, ensuring the result looks like a rare scientific anatomy plate.",
+  },
+  {
+    id: "halftone-pop",
+    label: "Halftone Pop",
+    description: "Graphic Ben-Day dots for high-contrast newspaper vibes.",
+    prompt:
+      "Transform this photo into a high-impact halftone pop art piece. Build all depth and shading using varying densities of classic Ben-Day dots in a stark black-and-white or CMYK palette. Maintain the original people, pose, and expression, ensuring the graphic punch of a vintage newspaper print while keeping the layout identical.",
+  },
+  {
+    id: "charcoal",
+    label: "Charcoal",
+    description: "Moody smudged carbon textures with raw hand-drawn soul.",
+    prompt:
+      "Recreate this photo as a moody charcoal drawing on textured paper. Use thick, smudged carbon strokes for deep shadows and light, frantic lines for details. Ensure the aesthetic feels raw and handcrafted with visible fingerprints and dust while preserving the same subjects, proportions, composition, and expressions.",
   },
   {
     id: "watercolor",
