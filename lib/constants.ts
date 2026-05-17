@@ -9,8 +9,8 @@ export const MAX_SELECTED_STYLES = 4;
 export const STYLE_LIMIT_TOOLTIP = "You can select up to 4 styles at a time";
 
 export const DEFAULT_SELECTED_STYLE_IDS: PhotoboothStyleId[] = [
-  "knitted",
-  "digital-art",
+  "sketchwork",
+  "cybersigilism",
 ];
 
 export const IMAGEGEN_API_ROUTE = "/api/photobooth";
